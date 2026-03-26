@@ -1,0 +1,11 @@
+function telljoke() {
+  console.log(
+    "why do not the scientist  trust atoms?because,they make up everything!",
+  );
+}
+const jokeInterval = setInterval(() => {
+  telljoke();
+}, 2000);
+setTimeout(() => {
+  clearInterval(jokeInterval);
+}, 10000);
